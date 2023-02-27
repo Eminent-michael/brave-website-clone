@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: poppins;
+}
+
+:root{
+    --white: #ffff;
+    --light-purple: #de93f7;
+}
+
+/* color */
+
+.has-white-bak{
+    background-color: var(--white);
+}
+
+.is-white{
+    color: var(--white);
+}
+
+.has-light-purple{
+    background-color: var(--light-purple);
+}
+
+
+/* Font Sizes */
+.is-size-7{
+    font-size: 0.75rem;
+}
+
+.is-size-6{
+    font-size: 0.79rem;
+}
+
+.is-size-5{
+    font-size: 1.4rem;
+}
+
+.is-size-4{
+    font-size: 2.25rem;
+}
+
+.is-size-1{
+    font-size: 4rem;
+}
+
+.is-bold{
+    font-weight: 700;
+}
+
+.is-bold-1{
+    font-weight: 600;
+}
+
+
+
+/* Buttons */
+.btn{
+    border: none;
+    padding: 16px 34px;
+    border-radius: 27px;
+}
+
+.outlined{
+    background-color: transparent;
+    border: 1.5px solid var(--white);
+}
+
+/* Components */
+
+.container-home{
+    width: 80%;
+    max-width: 100rem;
+    margin: auto;
+}
+
+.container{
+    width: 68%;
+    max-width: 100rem;
+    margin: auto;
+}
+
+
+.main{
+    position: relative;
+    width: 100%;
+    /* height: 100vh; */
+    background: linear-gradient(125deg, #1e339d 34%, #9b36c9 80%);
+}
+
+
+.main > img{
+    /* margin-top: -109px; */
+    position: absolute;
+    bottom: 0;
+    /* btopackground-colortop: red; */
+}
+
+/* Header starts */
+
+header{
+    position: fixed;
+    background-color: transparent;
+    display: flex;
+    height: 6em;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    z-index: 100;
+}
+
+
+header .left-menu ul{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    font-weight: 600;
+}
+
+header .brave-logo img{
+    width: 7rem;
+}
+
+header .right-menu-btns button:first-child{
+    margin-right: 8px !important;
+}
+
+/* Header ends */
+
+
+/* First-page */
+
+.first-page{
+    position: relative;
+    padding-top: 90px;
+}
+
+.first-page .contents{
+    text-align: center;
+}
+
+/* .first-page-lower{
+    position: relative;
+} */
+
+.first-page-lower img{
+    width: 100%;
+    height: auto;
+}
+
+.first-page button > img{
+    width: 24px;
+    height: auto;
+}
+
+.first-page button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 36%;
+    height: 3.6rem;
+}
+
+.download-cont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+/* First-page ends */
+
+
+/* Section two starts */
+.info{
+    padding: 120px 0;
+}
+
+
+.row{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 110px;
+    max-height: 351px;
+}
+
+.content-info{
+    margin-top: 0;
+    margin: auto;
+    width: 80%;
+}
+
+.info .content-info h1{
+    margin-bottom: 20px;
+}
+
+.image-info{
+    position: relative;
+}
+
+
+.first-row .image-info img:first-child{
+    width: 100%;
+    max-height: auto;
+}
+
+.first-row .image-info img.play-button{
+    position: absolute;
+    left: 40%;
+    bottom: 40%;
+}
+
+/*  section twon ends */
+
